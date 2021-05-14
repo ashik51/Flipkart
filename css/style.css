@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --main-bg-color: #2874F0; 
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;    
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0px 25px;
+}
+
+nav ul {
+    height: 9vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0px 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search input {
+    padding: 0px 15px;
+    margin-left: 10px;
+    width: 30vw;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.search img {
+    width: 1.5vw;
+    position: absolute;
+    left: 28vw;
+    transform: scaleX(-1);
+}
+
+.container {
+    min-height: calc(100vh - 9vh - 12vh);
+}
+
+.slider {
+    width: 80vw;
+    margin: 20px auto;
+    overflow: hidden;
+    /* box-shadow: 10px #ccc; */
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+.slider img {
+    width: 80vw;
+    /* width: 100vw; */
+    height: 75vh;
+}
+
+.card h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; 
+    margin: 30px 0px 0px 0px;
+}
+.card_item img {
+    width: 150px;
+    height: 150px;
+}
+
+.card_item {
+    width: 15vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 21px;
+}
+
+.card_item:hover {
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.card {
+    max-width: 90vw;
+    /* background-color: brown; */
+    margin: auto;
+}
+
+.my-2 {
+    margin: 45px 0px;
+}
+
+
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+
+
+
